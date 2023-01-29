@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h1,
+  h2 {
+    margin: 0;
+  }
+
+  h2 {
+    font-size: small;
+  }
+}
+
+header,
+footer {
+  padding: 1em 2em;
+  background: linear-gradient(45deg, #0468bf, #038c8c);
+  color: white;
+}
